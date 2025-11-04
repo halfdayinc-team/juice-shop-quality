@@ -1,4 +1,6 @@
 /* Serve metrics */
+/* based on https://github.com/halfdayinc-team/juice-shop-quality/blob/master/data/static/codefixes/exposedMetricsChallenge_2.ts */
+
 const Metrics = metrics.observeMetrics()
 app.get('/metrics', metrics.serveMetrics())
 errorhandler.title = `${config.get<string>('application.name')} (Express ${utils.version('express')})`
