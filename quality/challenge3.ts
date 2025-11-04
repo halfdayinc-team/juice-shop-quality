@@ -1,3 +1,5 @@
+/* based on https://github.com/halfdayinc-team/juice-shop-quality/blob/master/data/static/codefixes/localXssChallenge_1.ts */
+
 filterTable () {
     let queryParam: string = this.route.snapshot.queryParams.q
     if (queryParam) {
