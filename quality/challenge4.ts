@@ -1,4 +1,5 @@
 /* based on https://github.com/halfdayinc-team/juice-shop-quality/blob/master/test/cypress/e2e/profile.spec.ts */
+/* https://github.com/halfdayinc-team/juice-shop-quality/security/quality/rules/js%2Fproperty-access-on-non-object */
 
 describe('/profile', () => {
   beforeEach(() => {
